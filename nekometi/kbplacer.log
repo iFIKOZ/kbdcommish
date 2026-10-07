@@ -1,0 +1,1770 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.15
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.1 with 4.2.2 msw (phoenix) wxWidgets 3.3.2
+INFO: kbplacer_dialog.py:689: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "D:\\1FIKOZ\\keyboard-design\\commish\\nekometi\\nekometi.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Row2', 'Col0'}): ['SW67', 'SW31'], frozenset({'Col13', 'Row1'}): ['SW29'], frozenset({'Row4', 'Col6'}): ['SW62'], frozenset({'Col5', 'Row0'}): ['SW6'], frozenset({'Col9', 'Row1'}): ['SW25'], frozenset({'Col10', 'Row1'}): ['SW26'], frozenset({'Row4', 'Col0'}): ['SW59'], frozenset({'Col2', 'Row0'}): ['SW3'], frozenset({'Row1', 'Col12'}): ['SW28'], frozenset({'Row3', 'Col11'}): ['SW55'], frozenset({'Col4', 'Row3'}): ['SW48'], frozenset({'Row2', 'Col9'}): ['SW40'], frozenset({'Row1', 'Col14'}): ['SW15'], frozenset({'Col7', 'Row1'}): ['SW23'], frozenset({'Col14', 'Row0'}): ['SW14'], frozenset({'Row1', 'Col6'}): ['SW22'], frozenset({'Col0', 'Row1'}): ['SW16'], frozenset({'Row3', 'Col8'}): ['SW52'], frozenset({'Col7', 'Row0'}): ['SW8'], frozenset({'Row1', 'Col1'}): ['SW17'], frozenset({'Row2', 'Col11'}): ['SW42'], frozenset({'Row2', 'Col2'}): ['SW33'], frozenset({'Col1', 'Row0'}): ['SW2'], frozenset({'Col11', 'Row0'}): ['SW12'], frozenset({'Row3', 'Col2'}): ['SW46'], frozenset({'Col4', 'Row0'}): ['SW5'], frozenset({'Col10', 'Row3'}): ['SW54'], frozenset({'Row4', 'Col13'}): ['SW66'], frozenset({'Row2', 'Col3'}): ['SW34'], frozenset({'Row3', 'Col3'}): ['SW47'], frozenset({'Row2', 'Col10'}): ['SW41'], frozenset({'Row4', 'Col11'}): ['SW64'], frozenset({'Row3', 'Col5'}): ['SW49'], frozenset({'Row1', 'Col3'}): ['SW19'], frozenset({'Row3', 'Col12'}): ['SW56'], frozenset({'Col4', 'Row1'}): ['SW20'], frozenset({'Row2', 'Col1'}): ['SW32'], frozenset({'Row4', 'Col12'}): ['SW65'], frozenset({'Col10', 'Row0'}): ['SW11'], frozenset({'Col9', 'Row0'}): ['SW10'], frozenset({'Col8', 'Row0'}): ['SW9'], frozenset({'Col7', 'Row3'}): ['SW51'], frozenset({'Row2', 'Col8'}): ['SW39'], frozenset({'Row4', 'Col2'}): ['SW61'], frozenset({'Col9', 'Row3'}): ['SW53'], frozenset({'Row4', 'Col10'}): ['SW63'], frozenset({'Col5', 'Row1'}): ['SW21'], frozenset({'Row3', 'Col6'}): ['SW50'], frozenset({'Col3', 'Row0'}): ['SW4'], frozenset({'Row2', 'Col4'}): ['SW35'], frozenset({'Row2', 'Col13'}): ['SW43'], frozenset({'Row2', 'Col14'}): ['SW30'], frozenset({'Row3', 'Col14'}): ['SW44'], frozenset({'Row4', 'Col1'}): ['SW60'], frozenset({'Row2', 'Col5'}): ['SW36'], frozenset({'Row1', 'Col2'}): ['SW18'], frozenset({'Row0', 'Col6'}): ['SW7'], frozenset({'Col13', 'Row3'}): ['SW57'], frozenset({'Row1', 'Col8'}): ['SW24'], frozenset({'Col7', 'Row2'}): ['SW38'], frozenset({'Row1', 'Col11'}): ['SW27'], frozenset({'Row4', 'Col14'}): ['SW58'], frozenset({'Col12', 'Row0'}): ['SW13'], frozenset({'Row3', 'Col0'}): ['SW45'], frozenset({'Col0', 'Row0'}): ['SW1'], frozenset({'Row2', 'Col6'}): ['SW37']})
+DEBUG: key_placer.py:145: Diodes by switch: {'SW9': ['D9'], 'SW56': ['D56'], 'SW54': ['D54'], 'SW39': ['D39'], 'SW5': ['D5'], 'SW66': ['D66'], 'SW58': ['D58'], 'SW48': ['D48'], 'SW19': ['D19'], 'SW43': ['D43'], 'SW50': ['D50'], 'SW16': ['D16'], 'SW45': ['D45'], 'SW18': ['D18'], 'SW1': ['D1'], 'SW23': ['D23'], 'SW59': ['D59'], 'SW12': ['D12'], 'SW29': ['D29'], 'SW44': ['D44'], 'SW63': ['D63'], 'SW34': ['D34'], 'SW10': ['D10'], 'SW24': ['D24'], 'SW7': ['D7'], 'SW2': ['D2'], 'SW52': ['D52'], 'SW25': ['D25'], 'SW62': ['D62'], 'SW57': ['D57'], 'SW27': ['D27'], 'SW22': ['D22'], 'SW32': ['D32'], 'SW47': ['D47'], 'SW20': ['D20'], 'SW35': ['D35'], 'SW46': ['D46'], 'SW4': ['D4'], 'SW36': ['D36'], 'SW67': ['D31'], 'SW31': ['D31'], 'SW15': ['D15'], 'SW40': ['D40'], 'SW51': ['D51'], 'SW30': ['D30'], 'SW21': ['D21'], 'SW13': ['D13'], 'SW33': ['D33'], 'SW42': ['D42'], 'SW38': ['D38'], 'SW65': ['D65'], 'SW41': ['D41'], 'SW28': ['D28'], 'SW64': ['D64'], 'SW53': ['D53'], 'SW37': ['D37'], 'SW8': ['D8'], 'SW3': ['D3'], 'SW17': ['D17'], 'SW14': ['D14'], 'SW60': ['D60'], 'SW55': ['D55'], 'SW61': ['D61'], 'SW26': ['D26'], 'SW6': ['D6'], 'SW49': ['D49'], 'SW11': ['D11']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+INFO: key_placer.py:621: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (32310000, 36680000)
+INFO: key_placer.py:665: Got connection template: Track [(6090000, -5080000) (7400000, -3770000)], Track [(7400000, -3770000) (7400000, 600000)], Track [(7400000, 600000) (5850000, 2150000)], Track [(5850000, 2150000) (5850000, 3000000)]
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Row2', 'Col0'}): ['SW67', 'SW31'], frozenset({'Col13', 'Row1'}): ['SW29'], frozenset({'Row4', 'Col6'}): ['SW62'], frozenset({'Col5', 'Row0'}): ['SW6'], frozenset({'Col9', 'Row1'}): ['SW25'], frozenset({'Col10', 'Row1'}): ['SW26'], frozenset({'Row4', 'Col0'}): ['SW59'], frozenset({'Col2', 'Row0'}): ['SW3'], frozenset({'Row1', 'Col12'}): ['SW28'], frozenset({'Row3', 'Col11'}): ['SW55'], frozenset({'Col4', 'Row3'}): ['SW48'], frozenset({'Row2', 'Col9'}): ['SW40'], frozenset({'Row1', 'Col14'}): ['SW15'], frozenset({'Col7', 'Row1'}): ['SW23'], frozenset({'Col14', 'Row0'}): ['SW14'], frozenset({'Row1', 'Col6'}): ['SW22'], frozenset({'Col0', 'Row1'}): ['SW16'], frozenset({'Row3', 'Col8'}): ['SW52'], frozenset({'Col7', 'Row0'}): ['SW8'], frozenset({'Row1', 'Col1'}): ['SW17'], frozenset({'Row2', 'Col11'}): ['SW42'], frozenset({'Row2', 'Col2'}): ['SW33'], frozenset({'Col1', 'Row0'}): ['SW2'], frozenset({'Col11', 'Row0'}): ['SW12'], frozenset({'Row3', 'Col2'}): ['SW46'], frozenset({'Col4', 'Row0'}): ['SW5'], frozenset({'Col10', 'Row3'}): ['SW54'], frozenset({'Row4', 'Col13'}): ['SW66'], frozenset({'Row2', 'Col3'}): ['SW34'], frozenset({'Row3', 'Col3'}): ['SW47'], frozenset({'Row2', 'Col10'}): ['SW41'], frozenset({'Row4', 'Col11'}): ['SW64'], frozenset({'Row3', 'Col5'}): ['SW49'], frozenset({'Row1', 'Col3'}): ['SW19'], frozenset({'Row3', 'Col12'}): ['SW56'], frozenset({'Col4', 'Row1'}): ['SW20'], frozenset({'Row2', 'Col1'}): ['SW32'], frozenset({'Row4', 'Col12'}): ['SW65'], frozenset({'Col10', 'Row0'}): ['SW11'], frozenset({'Col9', 'Row0'}): ['SW10'], frozenset({'Col8', 'Row0'}): ['SW9'], frozenset({'Col7', 'Row3'}): ['SW51'], frozenset({'Row2', 'Col8'}): ['SW39'], frozenset({'Row4', 'Col2'}): ['SW61'], frozenset({'Col9', 'Row3'}): ['SW53'], frozenset({'Row4', 'Col10'}): ['SW63'], frozenset({'Col5', 'Row1'}): ['SW21'], frozenset({'Row3', 'Col6'}): ['SW50'], frozenset({'Col3', 'Row0'}): ['SW4'], frozenset({'Row2', 'Col4'}): ['SW35'], frozenset({'Row2', 'Col13'}): ['SW43'], frozenset({'Row2', 'Col14'}): ['SW30'], frozenset({'Row3', 'Col14'}): ['SW44'], frozenset({'Row4', 'Col1'}): ['SW60'], frozenset({'Row2', 'Col5'}): ['SW36'], frozenset({'Row1', 'Col2'}): ['SW18'], frozenset({'Row0', 'Col6'}): ['SW7'], frozenset({'Col13', 'Row3'}): ['SW57'], frozenset({'Row1', 'Col8'}): ['SW24'], frozenset({'Col7', 'Row2'}): ['SW38'], frozenset({'Row1', 'Col11'}): ['SW27'], frozenset({'Row4', 'Col14'}): ['SW58'], frozenset({'Col12', 'Row0'}): ['SW13'], frozenset({'Row3', 'Col0'}): ['SW45'], frozenset({'Col0', 'Row0'}): ['SW1'], frozenset({'Row2', 'Col6'}): ['SW37']})
+DEBUG: key_placer.py:145: Diodes by switch: {'SW9': ['D9'], 'SW56': ['D56'], 'SW54': ['D54'], 'SW39': ['D39'], 'SW5': ['D5'], 'SW66': ['D66'], 'SW58': ['D58'], 'SW48': ['D48'], 'SW19': ['D19'], 'SW43': ['D43'], 'SW50': ['D50'], 'SW16': ['D16'], 'SW45': ['D45'], 'SW18': ['D18'], 'SW1': ['D1'], 'SW23': ['D23'], 'SW59': ['D59'], 'SW12': ['D12'], 'SW29': ['D29'], 'SW44': ['D44'], 'SW63': ['D63'], 'SW34': ['D34'], 'SW10': ['D10'], 'SW24': ['D24'], 'SW7': ['D7'], 'SW2': ['D2'], 'SW52': ['D52'], 'SW25': ['D25'], 'SW62': ['D62'], 'SW57': ['D57'], 'SW27': ['D27'], 'SW22': ['D22'], 'SW32': ['D32'], 'SW47': ['D47'], 'SW20': ['D20'], 'SW35': ['D35'], 'SW46': ['D46'], 'SW4': ['D4'], 'SW36': ['D36'], 'SW67': ['D31'], 'SW31': ['D31'], 'SW15': ['D15'], 'SW40': ['D40'], 'SW51': ['D51'], 'SW30': ['D30'], 'SW21': ['D21'], 'SW13': ['D13'], 'SW33': ['D33'], 'SW42': ['D42'], 'SW38': ['D38'], 'SW65': ['D65'], 'SW41': ['D41'], 'SW28': ['D28'], 'SW64': ['D64'], 'SW53': ['D53'], 'SW37': ['D37'], 'SW8': ['D8'], 'SW3': ['D3'], 'SW17': ['D17'], 'SW14': ['D14'], 'SW60': ['D60'], 'SW55': ['D55'], 'SW61': ['D61'], 'SW26': ['D26'], 'SW6': ['D6'], 'SW49': ['D49'], 'SW11': ['D11']}
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (32310000, 36680000)
+DEBUG: board_modifier.py:107: Getting D1 footprint position: (38160000, 41330000)
+INFO: key_placer.py:1017: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=5.85, y=4.65, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)
+INFO: kle_serial.py:1016: User layout: [{'name': 'same65', 'author': 'iFIKOZ'}, [{'a': 7}, '', '', '', '', '', '', '', '', '', '', '', '', '', {'w': 2}, '', ''], [{'w': 1.5}, '', '', '', '', '', '', '', '', '', '', '', '', '', {'w': 1.5}, '', ''], [{'w': 1.75}, '', '', '', '', '', '', '', '', '', '', '', '', {'w': 2.25}, '', ''], [{'w': 2.25}, '', '', '', '', '', '', '', '', '', '', '', {'w': 1.75}, '', '', ''], [{'w': 1.5}, '', '', {'w': 1.5}, '', {'w': 7}, '', {'w': 1.5}, '', {'x': 0.5}, '', '', '']]
+DEBUG: key_placer.py:751: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:757: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1110: Layout with: x_ortholinear_keys=28, y_ortholinear_keys=66, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1135: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (323850000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW22 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW23 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW24 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW25 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW26 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW27 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW28 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW29 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:94: Setting SW30 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW31 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW32 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW33 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW34 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW35 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW36 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW37 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW38 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW39 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW40 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW41 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW42 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW43 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:94: Setting SW44 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW45 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW46 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW47 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW48 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW49 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW50 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW51 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW52 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW53 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW54 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW55 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW56 footprint position: (278606250, 95250000)
+DEBUG: board_modifier.py:94: Setting SW57 footprint position: (304800000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW58 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW59 footprint position: (42862500, 114300000)
+DEBUG: board_modifier.py:94: Setting SW60 footprint position: (66675000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW61 footprint position: (90487500, 114300000)
+DEBUG: board_modifier.py:94: Setting SW62 footprint position: (171450000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW63 footprint position: (252412500, 114300000)
+DEBUG: board_modifier.py:94: Setting SW64 footprint position: (285750000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW65 footprint position: (304800000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW66 footprint position: (323850000, 114300000)
+INFO: key_placer.py:1123: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=5.85, y=4.65, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (43950000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (63000000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (82050000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (101100000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (120150000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (139200000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (158250000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (177300000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (196350000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (215400000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (234450000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (253500000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (272550000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (301125000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (323850000, 38100000)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (329700000, 42750000)
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (48712500, 61800000)
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (72525000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (91575000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (110625000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (129675000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (148725000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:94: Setting D22 footprint position: (167775000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:94: Setting D23 footprint position: (186825000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:94: Setting D24 footprint position: (205875000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:94: Setting D25 footprint position: (224925000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:94: Setting D26 footprint position: (243975000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:94: Setting D27 footprint position: (263025000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:94: Setting D28 footprint position: (282075000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:94: Setting D29 footprint position: (305887500, 61800000)
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:94: Setting D30 footprint position: (329700000, 61800000)
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:94: Setting D31 footprint position: (51093750, 80850000)
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:94: Setting D32 footprint position: (77287500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:94: Setting D33 footprint position: (96337500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:94: Setting D34 footprint position: (115387500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:94: Setting D35 footprint position: (134437500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:94: Setting D36 footprint position: (153487500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:94: Setting D37 footprint position: (172537500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:94: Setting D38 footprint position: (191587500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:94: Setting D39 footprint position: (210637500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:94: Setting D40 footprint position: (229687500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:94: Setting D41 footprint position: (248737500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:94: Setting D42 footprint position: (267787500, 80850000)
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:94: Setting D43 footprint position: (298743750, 80850000)
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:94: Setting D44 footprint position: (329700000, 80850000)
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:94: Setting D45 footprint position: (55856250, 99900000)
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:94: Setting D46 footprint position: (86812500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:94: Setting D47 footprint position: (105862500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW48 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:94: Setting D48 footprint position: (124912500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW49 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:94: Setting D49 footprint position: (143962500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW50 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:94: Setting D50 footprint position: (163012500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW51 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:94: Setting D51 footprint position: (182062500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW52 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:94: Setting D52 footprint position: (201112500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW53 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:94: Setting D53 footprint position: (220162500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW54 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:94: Setting D54 footprint position: (239212500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW55 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:94: Setting D55 footprint position: (258262500, 99900000)
+DEBUG: board_modifier.py:107: Getting SW56 footprint position: (278606250, 95250000)
+DEBUG: board_modifier.py:94: Setting D56 footprint position: (284456250, 99900000)
+DEBUG: board_modifier.py:107: Getting SW57 footprint position: (304800000, 95250000)
+DEBUG: board_modifier.py:94: Setting D57 footprint position: (310650000, 99900000)
+DEBUG: board_modifier.py:107: Getting SW58 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:94: Setting D58 footprint position: (329700000, 99900000)
+DEBUG: board_modifier.py:107: Getting SW59 footprint position: (42862500, 114300000)
+DEBUG: board_modifier.py:94: Setting D59 footprint position: (48712500, 118950000)
+DEBUG: board_modifier.py:107: Getting SW60 footprint position: (66675000, 114300000)
+DEBUG: board_modifier.py:94: Setting D60 footprint position: (72525000, 118950000)
+DEBUG: board_modifier.py:107: Getting SW61 footprint position: (90487500, 114300000)
+DEBUG: board_modifier.py:94: Setting D61 footprint position: (96337500, 118950000)
+DEBUG: board_modifier.py:107: Getting SW62 footprint position: (171450000, 114300000)
+DEBUG: board_modifier.py:94: Setting D62 footprint position: (177300000, 118950000)
+DEBUG: board_modifier.py:107: Getting SW63 footprint position: (252412500, 114300000)
+DEBUG: board_modifier.py:94: Setting D63 footprint position: (258262500, 118950000)
+DEBUG: board_modifier.py:107: Getting SW64 footprint position: (285750000, 114300000)
+DEBUG: board_modifier.py:94: Setting D64 footprint position: (291600000, 118950000)
+DEBUG: board_modifier.py:107: Getting SW65 footprint position: (304800000, 114300000)
+DEBUG: board_modifier.py:94: Setting D65 footprint position: (310650000, 118950000)
+DEBUG: board_modifier.py:107: Getting SW66 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:94: Setting D66 footprint position: (329700000, 118950000)
+DEBUG: board_modifier.py:107: Getting SW67 footprint position: (8710176, 7025000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW1 diodes
+DEBUG: board_modifier.py:107: Getting D1 footprint position: (43950000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW2 diodes
+DEBUG: board_modifier.py:107: Getting D2 footprint position: (63000000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW3 diodes
+DEBUG: board_modifier.py:107: Getting D3 footprint position: (82050000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW4 diodes
+DEBUG: board_modifier.py:107: Getting D4 footprint position: (101100000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW5 diodes
+DEBUG: board_modifier.py:107: Getting D5 footprint position: (120150000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW6 diodes
+DEBUG: board_modifier.py:107: Getting D6 footprint position: (139200000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW7 diodes
+DEBUG: board_modifier.py:107: Getting D7 footprint position: (158250000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW8 diodes
+DEBUG: board_modifier.py:107: Getting D8 footprint position: (177300000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW9 diodes
+DEBUG: board_modifier.py:107: Getting D9 footprint position: (196350000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW10 diodes
+DEBUG: board_modifier.py:107: Getting D10 footprint position: (215400000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW11 diodes
+DEBUG: board_modifier.py:107: Getting D11 footprint position: (234450000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW12 diodes
+DEBUG: board_modifier.py:107: Getting D12 footprint position: (253500000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW13 diodes
+DEBUG: board_modifier.py:107: Getting D13 footprint position: (272550000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW14 diodes
+DEBUG: board_modifier.py:107: Getting D14 footprint position: (301125000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW15 diodes
+DEBUG: board_modifier.py:107: Getting D15 footprint position: (329700000, 42750000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW16 diodes
+DEBUG: board_modifier.py:107: Getting D16 footprint position: (48712500, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW17 diodes
+DEBUG: board_modifier.py:107: Getting D17 footprint position: (72525000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW18 diodes
+DEBUG: board_modifier.py:107: Getting D18 footprint position: (91575000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW19 diodes
+DEBUG: board_modifier.py:107: Getting D19 footprint position: (110625000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW20 diodes
+DEBUG: board_modifier.py:107: Getting D20 footprint position: (129675000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW21 diodes
+DEBUG: board_modifier.py:107: Getting D21 footprint position: (148725000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW22 diodes
+DEBUG: board_modifier.py:107: Getting D22 footprint position: (167775000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW23 diodes
+DEBUG: board_modifier.py:107: Getting D23 footprint position: (186825000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW24 diodes
+DEBUG: board_modifier.py:107: Getting D24 footprint position: (205875000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW25 diodes
+DEBUG: board_modifier.py:107: Getting D25 footprint position: (224925000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW26 diodes
+DEBUG: board_modifier.py:107: Getting D26 footprint position: (243975000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW27 diodes
+DEBUG: board_modifier.py:107: Getting D27 footprint position: (263025000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW28 diodes
+DEBUG: board_modifier.py:107: Getting D28 footprint position: (282075000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW29 diodes
+DEBUG: board_modifier.py:107: Getting D29 footprint position: (305887500, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW30 diodes
+DEBUG: board_modifier.py:107: Getting D30 footprint position: (329700000, 61800000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW31 diodes
+DEBUG: board_modifier.py:107: Getting D31 footprint position: (51093750, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW32 diodes
+DEBUG: board_modifier.py:107: Getting D32 footprint position: (77287500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW33 diodes
+DEBUG: board_modifier.py:107: Getting D33 footprint position: (96337500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW34 diodes
+DEBUG: board_modifier.py:107: Getting D34 footprint position: (115387500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW35 diodes
+DEBUG: board_modifier.py:107: Getting D35 footprint position: (134437500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW36 diodes
+DEBUG: board_modifier.py:107: Getting D36 footprint position: (153487500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW37 diodes
+DEBUG: board_modifier.py:107: Getting D37 footprint position: (172537500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW38 diodes
+DEBUG: board_modifier.py:107: Getting D38 footprint position: (191587500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW39 diodes
+DEBUG: board_modifier.py:107: Getting D39 footprint position: (210637500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW40 diodes
+DEBUG: board_modifier.py:107: Getting D40 footprint position: (229687500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW41 diodes
+DEBUG: board_modifier.py:107: Getting D41 footprint position: (248737500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW42 diodes
+DEBUG: board_modifier.py:107: Getting D42 footprint position: (267787500, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW43 diodes
+DEBUG: board_modifier.py:107: Getting D43 footprint position: (298743750, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW44 diodes
+DEBUG: board_modifier.py:107: Getting D44 footprint position: (329700000, 80850000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW45 diodes
+DEBUG: board_modifier.py:107: Getting D45 footprint position: (55856250, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW46 diodes
+DEBUG: board_modifier.py:107: Getting D46 footprint position: (86812500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW47 diodes
+DEBUG: board_modifier.py:107: Getting D47 footprint position: (105862500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW48 diodes
+DEBUG: board_modifier.py:107: Getting D48 footprint position: (124912500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW49 diodes
+DEBUG: board_modifier.py:107: Getting D49 footprint position: (143962500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW50 diodes
+DEBUG: board_modifier.py:107: Getting D50 footprint position: (163012500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW51 diodes
+DEBUG: board_modifier.py:107: Getting D51 footprint position: (182062500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW52 diodes
+DEBUG: board_modifier.py:107: Getting D52 footprint position: (201112500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW53 diodes
+DEBUG: board_modifier.py:107: Getting D53 footprint position: (220162500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW54 diodes
+DEBUG: board_modifier.py:107: Getting D54 footprint position: (239212500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW55 diodes
+DEBUG: board_modifier.py:107: Getting D55 footprint position: (258262500, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW56 diodes
+DEBUG: board_modifier.py:107: Getting D56 footprint position: (284456250, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW57 diodes
+DEBUG: board_modifier.py:107: Getting D57 footprint position: (310650000, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW58 diodes
+DEBUG: board_modifier.py:107: Getting D58 footprint position: (329700000, 99900000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW59 diodes
+DEBUG: board_modifier.py:107: Getting D59 footprint position: (48712500, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW60 diodes
+DEBUG: board_modifier.py:107: Getting D60 footprint position: (72525000, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW61 diodes
+DEBUG: board_modifier.py:107: Getting D61 footprint position: (96337500, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW62 diodes
+DEBUG: board_modifier.py:107: Getting D62 footprint position: (177300000, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW63 diodes
+DEBUG: board_modifier.py:107: Getting D63 footprint position: (258262500, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW64 diodes
+DEBUG: board_modifier.py:107: Getting D64 footprint position: (291600000, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW65 diodes
+DEBUG: board_modifier.py:107: Getting D65 footprint position: (310650000, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW66 diodes
+DEBUG: board_modifier.py:107: Getting D66 footprint position: (329700000, 118950000)
+DEBUG: key_placer.py:859: Optimizing orientation of SW67 diodes
+DEBUG: board_modifier.py:107: Getting D31 footprint position: (51093750, 80850000)
+DEBUG: key_placer.py:887: Placing additional elements for SW67
+DEBUG: board_modifier.py:107: Getting SW67 footprint position: (8710176, 7025000)
+DEBUG: board_modifier.py:84: Searching for optional ST67 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW29
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW62
+DEBUG: board_modifier.py:107: Getting SW62 footprint position: (171450000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST62 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW6
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW25
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW26
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW59
+DEBUG: board_modifier.py:107: Getting SW59 footprint position: (42862500, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST59 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW3
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW28
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW55
+DEBUG: board_modifier.py:107: Getting SW55 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST55 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW48
+DEBUG: board_modifier.py:107: Getting SW48 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST48 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW40
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW15
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (323850000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW23
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW14
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW22
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW16
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW52
+DEBUG: board_modifier.py:107: Getting SW52 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST52 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW8
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW17
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW42
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW33
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST33 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW12
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW46
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW5
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW54
+DEBUG: board_modifier.py:107: Getting SW54 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST54 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW66
+DEBUG: board_modifier.py:107: Getting SW66 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST66 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW34
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW47
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW41
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW64
+DEBUG: board_modifier.py:107: Getting SW64 footprint position: (285750000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST64 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW49
+DEBUG: board_modifier.py:107: Getting SW49 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST49 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW19
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW56
+DEBUG: board_modifier.py:107: Getting SW56 footprint position: (278606250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST56 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW20
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW32
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW65
+DEBUG: board_modifier.py:107: Getting SW65 footprint position: (304800000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST65 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW11
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW10
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW9
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW31
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW51
+DEBUG: board_modifier.py:107: Getting SW51 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST51 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW39
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW61
+DEBUG: board_modifier.py:107: Getting SW61 footprint position: (90487500, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST61 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW53
+DEBUG: board_modifier.py:107: Getting SW53 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST53 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW63
+DEBUG: board_modifier.py:107: Getting SW63 footprint position: (252412500, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST63 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW21
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW50
+DEBUG: board_modifier.py:107: Getting SW50 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST50 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW4
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW35
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW43
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW30
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW44
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW60
+DEBUG: board_modifier.py:107: Getting SW60 footprint position: (66675000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST60 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW36
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW18
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW7
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW57
+DEBUG: board_modifier.py:107: Getting SW57 footprint position: (304800000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST57 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW24
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW38
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW27
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW58
+DEBUG: board_modifier.py:107: Getting SW58 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST58 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW13
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW45
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW37
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in D:\1FIKOZ\keyboard-design\commish\nekometi\nekometi.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW67 footprint position: (8710176, 7025000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(14800176, 1945000), (16110176, 3255000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW67:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(16110176, 3255000), (16110176, 7625000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW67:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 60ab4c95-5e0b-42e0-9bff-ff730910fd96 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(16110176, 7625000), (14560176, 9175000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 91d3da92-1d8f-462c-a915-dadc2f1e0751 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(14560176, 9175000), (14560176, 10025000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of ddef9d1b-99e8-486c-a2a5-9f6ab7671786 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (300037500, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(306127500, 52070000), (307437500, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW29:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(307437500, 53380000), (307437500, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW29:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 145a4c77-9118-4fd2-82ad-00399dfd87c9 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(307437500, 57750000), (305887500, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d60764e3-22a0-4c6c-97de-ece0b8134459 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(305887500, 59300000), (305887500, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D29:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9b8b9d88-24fb-483d-b4c2-968a730c8a63 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW62 footprint position: (171450000, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(177540000, 109220000), (178850000, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW62:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(178850000, 110530000), (178850000, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW62:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of f8b9e62a-da1f-4c81-8eed-0235e72c466e track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(178850000, 114900000), (177300000, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 591db7f0-4851-492c-b889-b77a575268ee track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(177300000, 116450000), (177300000, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D62:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 42482e7c-ff05-46f8-a147-55e71a592f9b track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(139440000, 33020000), (140750000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW6:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(140750000, 34330000), (140750000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW6:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 45176291-d525-4f46-8027-7399ad406361 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(140750000, 38700000), (139200000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7ecd9d11-9f25-45bf-b52e-b8d1ef5edf74 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(139200000, 40250000), (139200000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D6:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of af994d76-4a9b-4731-ad41-ba720ed6abc5 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (219075000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(225165000, 52070000), (226475000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW25:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(226475000, 53380000), (226475000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW25:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c69cfa67-d3bb-424f-86e1-f537846a32d3 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(226475000, 57750000), (224925000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 35ba1834-7ed4-4a4a-9114-da2d7940d4d3 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(224925000, 59300000), (224925000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D25:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of fb7b07e3-6510-4825-ab85-e169f77bdf3e track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (238125000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(244215000, 52070000), (245525000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW26:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(245525000, 53380000), (245525000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW26:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7c54cd3e-73ad-4ccf-b0f5-85b5d96284ec track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(245525000, 57750000), (243975000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5bee5d73-59a4-4ad8-adca-4f55ed61cbec track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(243975000, 59300000), (243975000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D26:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 54ad467c-9952-4493-a7bc-583be67d12a9 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW59 footprint position: (42862500, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(48952500, 109220000), (50262500, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW59:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(50262500, 110530000), (50262500, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW59:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 01dc0c5e-2bf3-4618-a21b-4dfe852d0db8 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(50262500, 114900000), (48712500, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 4d45c00c-275c-4a13-ab03-425ce17a7be2 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(48712500, 116450000), (48712500, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D59:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 89fd9165-2b62-43d3-8f2a-3f0eccd6b355 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(82290000, 33020000), (83600000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW3:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(83600000, 34330000), (83600000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW3:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a2738229-0547-4acc-b5ec-9a1d9d014527 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(83600000, 38700000), (82050000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 230cc851-473e-40d5-b386-43b7e047e8e3 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(82050000, 40250000), (82050000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D3:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b667a77d-783d-4cd3-bf7a-8f9bfc39cc60 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (276225000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(282315000, 52070000), (283625000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW28:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(283625000, 53380000), (283625000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW28:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c66c7c40-edfb-405d-a8f4-ae6ac23e4c03 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(283625000, 57750000), (282075000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5105f356-1305-4314-99f3-d11e8a866beb track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(282075000, 59300000), (282075000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D28:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9df29d2a-18e3-4e5f-9f8a-e60e4e381bfa track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW55 footprint position: (252412500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(258502500, 90170000), (259812500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW55:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(259812500, 91480000), (259812500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW55:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 66176b7a-3f9e-4b7d-b7b5-fffc4b018fc3 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(259812500, 95850000), (258262500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9a215066-ab3d-4e68-9296-cd4467aa75a9 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(258262500, 97400000), (258262500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D55:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8e0e98aa-1aa0-4386-8635-e7e64704aeee track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW48 footprint position: (119062500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(125152500, 90170000), (126462500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW48:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(126462500, 91480000), (126462500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW48:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c2a82b99-323e-4839-9f18-845a1242cbf5 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(126462500, 95850000), (124912500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c19e0549-7234-4d4b-9341-3ef02cd00714 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(124912500, 97400000), (124912500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D48:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of f6b1b4cb-5133-4068-8cf3-b60d02025d1c track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (223837500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(229927500, 71120000), (231237500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW40:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(231237500, 72430000), (231237500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW40:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of ae5593d7-2083-4222-afa4-6c6653debec3 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(231237500, 76800000), (229687500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 1e618ef5-4838-4635-9e57-39c8ad6e072e track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(229687500, 78350000), (229687500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D40:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d33e275e-3a40-4042-b27b-4e5b41d6517d track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (323850000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329940000, 33020000), (331250000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW15:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 34330000), (331250000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW15:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 774c99db-8bec-4af6-b2b1-4afb3a82aee1 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 38700000), (329700000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5a1ac603-2cf7-4922-a570-9a23b4b13061 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329700000, 40250000), (329700000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D15:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 16582be1-7cf7-4038-934b-bc0bbadd0b25 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (180975000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(187065000, 52070000), (188375000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW23:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(188375000, 53380000), (188375000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW23:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 89fef70a-f738-4ad3-95f2-f742c54db68e track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(188375000, 57750000), (186825000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9bcaec82-74f4-44c1-b1bf-9e8389918b8c track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(186825000, 59300000), (186825000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D23:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 52b10cc7-3e5f-471c-90d0-c05e462b498d track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (295275000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(301365000, 33020000), (302675000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW14:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(302675000, 34330000), (302675000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW14:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b9c3f34e-5c67-447b-8fbf-edbd9bbba5e7 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(302675000, 38700000), (301125000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 366742c6-5d94-491b-bf1e-b938a9d45b07 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(301125000, 40250000), (301125000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D14:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of e6f5eb8d-7189-4f7b-8bec-be066234e07d track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (161925000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(168015000, 52070000), (169325000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW22:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(169325000, 53380000), (169325000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW22:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 0e1886ac-7c84-43a4-b336-07e60e644a01 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(169325000, 57750000), (167775000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a9698f5e-ce7f-4539-8ab2-711196267114 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(167775000, 59300000), (167775000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D22:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 49022d92-80e4-4989-8bec-ec60622386bf track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (42862500, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(48952500, 52070000), (50262500, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW16:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(50262500, 53380000), (50262500, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW16:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of fe04d268-9594-45d3-ad04-ec3efc2a65da track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(50262500, 57750000), (48712500, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 0f75f94a-ddd3-4b78-bdd4-c6037555a483 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(48712500, 59300000), (48712500, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D16:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 50c6321c-b487-43be-b599-3a6e6a7bbfe8 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW52 footprint position: (195262500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(201352500, 90170000), (202662500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW52:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(202662500, 91480000), (202662500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW52:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b6de50d7-3daf-48e6-b9b9-e0b7f34137fb track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(202662500, 95850000), (201112500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of e821c710-cde1-4d9f-bd16-429abaa01b2d track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(201112500, 97400000), (201112500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D52:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d7f66ce1-d8af-4268-9fe3-127dfb7edbab track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(177540000, 33020000), (178850000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW8:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(178850000, 34330000), (178850000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW8:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b7a88ab9-bea4-4618-9451-096ae6b14efe track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(178850000, 38700000), (177300000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 86a9abeb-bdde-4a72-88e3-2eefac611bea track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(177300000, 40250000), (177300000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D8:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of cdce408f-ad2a-4a56-9bfa-fe7d1b469c90 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (66675000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(72765000, 52070000), (74075000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW17:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(74075000, 53380000), (74075000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW17:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 56339295-a691-49f5-bf88-6e14291f7bf1 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(74075000, 57750000), (72525000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 84b6475c-6ff1-4bea-9c0c-0a2034e6afd9 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(72525000, 59300000), (72525000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D17:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a4f30911-3062-4ac8-9ab7-ba584ee9db9f track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (261937500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(268027500, 71120000), (269337500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW42:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(269337500, 72430000), (269337500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW42:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5637131c-289a-431c-8100-3d2359bc8c12 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(269337500, 76800000), (267787500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c42a396c-d699-4905-8ab8-2dfc3cef5f4e track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(267787500, 78350000), (267787500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D42:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7efd6c4c-db99-4b6b-bcb0-f907d37d2ad7 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (90487500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(96577500, 71120000), (97887500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW33:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(97887500, 72430000), (97887500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW33:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9dde8d3a-7187-4c6b-b09c-31ec6f17ad13 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(97887500, 76800000), (96337500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d9e1340f-688c-4950-914f-6c0f4cead285 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(96337500, 78350000), (96337500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D33:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of bf17821f-dda7-4aaa-b16c-ac589796e09d track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(63240000, 33020000), (64550000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW2:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(64550000, 34330000), (64550000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW2:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 3bce1ffe-509b-4ff4-addf-a473fef1cbfa track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(64550000, 38700000), (63000000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of e913f6da-3a78-4bc5-85c0-5a891d84a98b track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(63000000, 40250000), (63000000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D2:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 210154eb-f4f2-482a-b079-c114b46d6cc3 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(253740000, 33020000), (255050000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW12:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(255050000, 34330000), (255050000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW12:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of db18982d-1991-4cbb-ae85-55bed9d42096 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(255050000, 38700000), (253500000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of de6e84a6-ff86-4bc4-9c9b-e6fab1f173fa track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(253500000, 40250000), (253500000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D12:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 6fb2770c-fbfd-4fb9-bce1-97d9b94260a1 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (80962500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(87052500, 90170000), (88362500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW46:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(88362500, 91480000), (88362500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW46:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 432a85a2-d9b7-43a6-af5d-5ce7ea9cde28 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(88362500, 95850000), (86812500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 316ea433-7e0e-416e-89ae-ce19f91c38fd track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(86812500, 97400000), (86812500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D46:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b42dd2c7-9b94-4be2-8a81-ff8cd8a805dd track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(120390000, 33020000), (121700000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW5:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(121700000, 34330000), (121700000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW5:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8b53646e-6015-4601-9b0c-abe52752ec33 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(121700000, 38700000), (120150000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 43983c9e-57ed-4b3d-86e0-9f6ba40465bb track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(120150000, 40250000), (120150000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D5:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of ecf7591a-349b-485d-a77c-b8ff3d6f510c track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW54 footprint position: (233362500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(239452500, 90170000), (240762500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW54:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(240762500, 91480000), (240762500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW54:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of baa144e4-6e50-4981-b142-aafdc2f7ed0b track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(240762500, 95850000), (239212500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 102289e3-425a-4115-8eb0-f3b82120b621 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(239212500, 97400000), (239212500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D54:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 28a7486c-5852-4520-9f36-5dd828ede9c6 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW66 footprint position: (323850000, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329940000, 109220000), (331250000, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW66:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 110530000), (331250000, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW66:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 61ae02a2-2d19-4452-8f15-af66bcd4a1f2 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 114900000), (329700000, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a0973ae7-7fae-421f-bc92-62d7f62d80e4 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329700000, 116450000), (329700000, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D66:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 290ab33c-c396-4639-a568-2903e73a5b32 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (109537500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(115627500, 71120000), (116937500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW34:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(116937500, 72430000), (116937500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW34:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 53583729-5913-49f3-99cf-ba4ab2e324e7 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(116937500, 76800000), (115387500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 4a26590b-ebf8-4ba3-96a0-67c06505f2df track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(115387500, 78350000), (115387500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D34:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 91df0a2c-c58b-47d9-baa4-f338ad3fbff0 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (100012500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(106102500, 90170000), (107412500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW47:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(107412500, 91480000), (107412500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW47:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of eed860cb-9a4a-4646-bf88-ef815f8aba09 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(107412500, 95850000), (105862500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 42b9c9db-5a58-4258-b422-231c5b96f765 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(105862500, 97400000), (105862500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D47:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a0485843-031f-41b6-b8ad-e6b160dbeac0 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (242887500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(248977500, 71120000), (250287500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW41:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(250287500, 72430000), (250287500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW41:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d05d546f-f489-4b73-ab54-d531e16fe539 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(250287500, 76800000), (248737500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 6aab2783-025c-4568-a2d8-bfb96e8a2dbd track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(248737500, 78350000), (248737500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D41:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5401033e-65c1-44e3-95f1-acc7583ae330 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW64 footprint position: (285750000, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(291840000, 109220000), (293150000, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW64:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(293150000, 110530000), (293150000, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW64:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9eed2f60-0f96-4f51-9a72-987a184ad4a4 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(293150000, 114900000), (291600000, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 31dabc71-48f1-46a5-a44d-72f185c6d0ad track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(291600000, 116450000), (291600000, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D64:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 1e230e46-55e1-4ef5-90f4-8114bf1d6bb8 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW49 footprint position: (138112500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(144202500, 90170000), (145512500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW49:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(145512500, 91480000), (145512500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW49:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 0846f3e6-bafb-4142-bfee-b9dea5f63257 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(145512500, 95850000), (143962500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b3553b8a-ad1c-49ca-82d9-4ed1d82ba4a7 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(143962500, 97400000), (143962500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D49:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b6f9f24b-3f36-43bd-baa4-9e01d420a6eb track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (104775000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(110865000, 52070000), (112175000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW19:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(112175000, 53380000), (112175000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW19:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 2d55eed2-ba40-4dc3-9547-bffc66758265 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(112175000, 57750000), (110625000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7bc1960f-a672-4f7d-9204-fdeb59c7ac76 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(110625000, 59300000), (110625000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D19:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of e908ac5d-8c54-4117-b68f-c7d9b0c890ce track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW56 footprint position: (278606250, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(284696250, 90170000), (286006250, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW56:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(286006250, 91480000), (286006250, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW56:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 2bf68c1c-40d6-4e5f-862b-2685aacdd4b9 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(286006250, 95850000), (284456250, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 31451a70-692b-4a72-b78e-4db6a99b26e6 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(284456250, 97400000), (284456250, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D56:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of eaa7c7f8-5931-4c91-a28e-49b8c82fd5d1 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (123825000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(129915000, 52070000), (131225000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW20:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(131225000, 53380000), (131225000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW20:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5cbd3b7c-f802-45cd-abe7-1ea353ddd01e track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(131225000, 57750000), (129675000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8c7530e8-ea67-4e65-8e43-6e94f34efd1a track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(129675000, 59300000), (129675000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D20:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 18c53c2d-9999-4334-9db6-96a98a27b790 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (71437500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(77527500, 71120000), (78837500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW32:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(78837500, 72430000), (78837500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW32:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 255ce2c9-2f94-4694-b1a6-1e918d3bbeb4 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(78837500, 76800000), (77287500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 3542d32a-8120-484b-bd39-6474936c1a7c track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(77287500, 78350000), (77287500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D32:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of f967dad2-6f3c-417e-8587-b1a8c7c0982b track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW65 footprint position: (304800000, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(310890000, 109220000), (312200000, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW65:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(312200000, 110530000), (312200000, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW65:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 75a26eb6-fe57-44b3-8384-4a527bb40a55 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(312200000, 114900000), (310650000, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a5bfec97-1235-4431-b726-a07f193375e4 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(310650000, 116450000), (310650000, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D65:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 1b4e1eef-be15-4231-b5d9-4beb186caa28 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(234690000, 33020000), (236000000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW11:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(236000000, 34330000), (236000000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW11:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 382f6999-2c7c-477b-883b-df4ef13d3c55 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(236000000, 38700000), (234450000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7a100d92-f9b2-49ff-a8f4-709554054baa track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(234450000, 40250000), (234450000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D11:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of f8f55035-b2f1-4938-b49c-feaa41b226cc track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(215640000, 33020000), (216950000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW10:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(216950000, 34330000), (216950000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW10:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a3f7cb9d-d21e-46a5-aa59-50ce3b59e80d track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(216950000, 38700000), (215400000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 05579110-daea-4478-ae3c-33ae1ce713d6 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(215400000, 40250000), (215400000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D10:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a335f8cf-1b96-449c-8a9e-ba6d65434058 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(196590000, 33020000), (197900000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW9:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(197900000, 34330000), (197900000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW9:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d1cf5ff4-89dc-4544-8f49-2eb3ab173a90 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(197900000, 38700000), (196350000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9ca86ff4-9adc-4a3b-ba77-f8371ab5d858 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(196350000, 40250000), (196350000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D9:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of e3e07630-1118-4b1c-b106-d782c5079718 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (45243750, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(51333750, 71120000), (52643750, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW31:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(52643750, 72430000), (52643750, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW31:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 54a9c4c1-7265-480a-89f9-3983ac65dcbb track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(52643750, 76800000), (51093750, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of dcb7660f-7288-412a-99b0-aef70d273a1f track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(51093750, 78350000), (51093750, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D31:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of bfcc5e15-c91e-4f2e-b807-3eb547e248a2 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW51 footprint position: (176212500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(182302500, 90170000), (183612500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW51:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(183612500, 91480000), (183612500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW51:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5915c90c-b9bd-4011-b526-dc26e5c6df50 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(183612500, 95850000), (182062500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c6be9133-d4ff-486c-ac16-ef65fa29c55c track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(182062500, 97400000), (182062500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D51:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of dc87bea3-50ce-4800-8e8b-964d208afebe track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (204787500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(210877500, 71120000), (212187500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW39:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(212187500, 72430000), (212187500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW39:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of fdb85b23-18f7-41a6-9316-7282c5298f87 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(212187500, 76800000), (210637500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 872ec3bb-4f2c-46de-abbc-71be0a559ede track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(210637500, 78350000), (210637500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D39:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of fe08edaf-5241-4a2b-a8f0-9f01d0f15713 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW61 footprint position: (90487500, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(96577500, 109220000), (97887500, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW61:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(97887500, 110530000), (97887500, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW61:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 2d2518fc-6d79-4bc6-89d4-3bc7fd8cfb4a track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(97887500, 114900000), (96337500, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 24fc2747-820a-4a14-aadc-77156ed8bdee track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(96337500, 116450000), (96337500, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D61:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a6a6c95f-3e43-48d6-892f-d373eadcdbcd track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW53 footprint position: (214312500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(220402500, 90170000), (221712500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW53:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(221712500, 91480000), (221712500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW53:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 51a7150c-0e49-4d80-9089-aff939f14a6b track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(221712500, 95850000), (220162500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9c40b7ae-f887-42a1-99f9-2c1a733c6d44 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(220162500, 97400000), (220162500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D53:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 2342d682-4da6-478c-af96-1e9f27d5b58c track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW63 footprint position: (252412500, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(258502500, 109220000), (259812500, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW63:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(259812500, 110530000), (259812500, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW63:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of beb54d98-89e1-4732-b824-5cc37088966b track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(259812500, 114900000), (258262500, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8fa58a8b-76b3-4d48-829b-980c3918884f track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(258262500, 116450000), (258262500, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D63:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of a6b9bf2f-f443-4ed7-90b4-3c8b2d89a186 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (142875000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(148965000, 52070000), (150275000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW21:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(150275000, 53380000), (150275000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW21:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 84f632e1-28ef-4a15-a67b-951d4316a9ce track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(150275000, 57750000), (148725000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 47ee35df-f1a7-4672-8886-998304e8393d track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(148725000, 59300000), (148725000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D21:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b2c52f7e-e5f9-4abc-bea7-866ef402a2ff track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW50 footprint position: (157162500, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(163252500, 90170000), (164562500, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW50:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(164562500, 91480000), (164562500, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW50:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 13e4f401-a3ee-418e-8e78-6a33f6e0e731 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(164562500, 95850000), (163012500, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of f8b77d06-03b5-4052-aefa-950334495e28 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(163012500, 97400000), (163012500, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D50:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 52aa6ad3-cd18-49c0-a4fd-cae6a68161e2 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(101340000, 33020000), (102650000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW4:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(102650000, 34330000), (102650000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW4:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c150eb05-0a34-4c26-a63c-6a303a77a3cc track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(102650000, 38700000), (101100000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8aab9630-0b45-41d2-819b-e55ec68b09d1 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(101100000, 40250000), (101100000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D4:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 471ab830-2e03-4d17-b7b6-c6652015736b track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (128587500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(134677500, 71120000), (135987500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW35:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(135987500, 72430000), (135987500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW35:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 9d9b86cc-010f-44e4-b1fa-5c6b8977aa2a track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(135987500, 76800000), (134437500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of eceb69b0-3967-4e4d-bfdb-2cd9c16a91dc track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(134437500, 78350000), (134437500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D35:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 462dd97b-68ae-4647-9431-0a5b33ed04e3 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (292893750, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(298983750, 71120000), (300293750, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW43:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(300293750, 72430000), (300293750, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW43:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7ff227f2-121f-4fb6-9113-4300e2a767b6 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(300293750, 76800000), (298743750, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 78ceba88-4346-4abc-a49c-8455c912e4b6 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(298743750, 78350000), (298743750, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D43:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 4ded1da7-5767-495d-8b19-eb41cbd6e64c track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (323850000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329940000, 52070000), (331250000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW30:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 53380000), (331250000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW30:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7ffe0c6e-bcf8-4c4c-9c0f-d38279602d50 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 57750000), (329700000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of de1f7ddd-c7c0-489f-85cb-b9c8d2788f20 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329700000, 59300000), (329700000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D30:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 970d0421-22f8-4888-b4a0-e0398a0950e5 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (323850000, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329940000, 71120000), (331250000, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW44:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 72430000), (331250000, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW44:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 248d94a3-d95d-4286-9e63-325380f80baa track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 76800000), (329700000, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 42067594-9c18-4f2e-94c4-a82717ace1c5 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329700000, 78350000), (329700000, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D44:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 79b571ca-2bf7-482b-beb7-add2ec1dcd5d track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW60 footprint position: (66675000, 114300000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(72765000, 109220000), (74075000, 110530000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW60:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(74075000, 110530000), (74075000, 114900000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW60:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of bfe0081d-e731-46e5-a997-3e781fb755bc track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(74075000, 114900000), (72525000, 116450000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b0014ef4-9fa4-43bf-befe-7af308f69e54 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(72525000, 116450000), (72525000, 117300000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D60:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 66e730ca-1e09-4ad6-bd7b-662d35997ad7 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (147637500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(153727500, 71120000), (155037500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW36:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(155037500, 72430000), (155037500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW36:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 3c49d701-acdc-4861-adcf-f4cdf2bb1b20 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(155037500, 76800000), (153487500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 2aebe6cf-d77a-4c36-b1ea-b4ac1b9ec27e track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(153487500, 78350000), (153487500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D36:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of eda61985-d0f6-4f9b-b40f-73ae6c6dc7fc track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (85725000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(91815000, 52070000), (93125000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW18:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(93125000, 53380000), (93125000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW18:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 0e79d203-263a-4a73-a42e-603caa239198 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(93125000, 57750000), (91575000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 6c83cc25-0dff-4310-9f66-cd70830bbbaa track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(91575000, 59300000), (91575000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D18:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 73126b10-188b-4fad-a5b6-a10c470fec04 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(158490000, 33020000), (159800000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW7:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(159800000, 34330000), (159800000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW7:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 333ae2a9-f130-488a-926d-88a7d61e2ff9 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(159800000, 38700000), (158250000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7eb8ac9c-0d52-4fa1-8927-cf7ec4fdd3ec track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(158250000, 40250000), (158250000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D7:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of af42c89c-644b-409b-805c-cd08563e2c4c track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW57 footprint position: (304800000, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(310890000, 90170000), (312200000, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW57:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(312200000, 91480000), (312200000, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW57:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7feb1575-6613-4d9b-b590-ba75224a2943 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(312200000, 95850000), (310650000, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of bdca38cf-16e5-4b5e-b0a7-56c60a9e7593 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(310650000, 97400000), (310650000, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D57:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of ef0baba3-6cd3-471f-86ce-49cd097d29ed track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (200025000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(206115000, 52070000), (207425000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW24:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(207425000, 53380000), (207425000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW24:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 45008cde-d933-427d-93cf-484f03b5eeb1 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(207425000, 57750000), (205875000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 62a41f94-f72a-4138-9328-b7d785ec3d72 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(205875000, 59300000), (205875000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D24:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 94dd740a-d169-48f9-b933-767badc0a601 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (185737500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(191827500, 71120000), (193137500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW38:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(193137500, 72430000), (193137500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW38:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 089897a6-384c-408e-b292-cb269fc7e280 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(193137500, 76800000), (191587500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 661c9483-26cc-472d-b999-c1890b5201f7 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(191587500, 78350000), (191587500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D38:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8a5c7d5b-438a-482f-8cc9-a65a27072512 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (257175000, 57150000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(263265000, 52070000), (264575000, 53380000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW27:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(264575000, 53380000), (264575000, 57750000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW27:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of aff0c822-7755-4e63-aff7-4f317f4c5341 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(264575000, 57750000), (263025000, 59300000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of bed22674-1fc3-437f-9ced-3819b6713f76 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(263025000, 59300000), (263025000, 60150000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D27:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 3804530a-9409-4b46-a266-5b0d58883824 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW58 footprint position: (323850000, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329940000, 90170000), (331250000, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW58:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 91480000), (331250000, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW58:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5639a49f-2adb-4287-b630-7b9b416b6410 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(331250000, 95850000), (329700000, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of d0876b70-ac42-4835-aa82-ead45af4354d track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(329700000, 97400000), (329700000, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D58:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of b1ecac56-d598-4de1-a675-d46f9f26ace9 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(272790000, 33020000), (274100000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW13:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(274100000, 34330000), (274100000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW13:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 8c6719c1-e1f9-46fd-9c74-ba83bc888a24 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(274100000, 38700000), (272550000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 29f81dfb-b99c-4445-9d0b-524cb29af58c track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(272550000, 40250000), (272550000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D13:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 06531802-49be-48ed-85cc-12b497888de0 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (50006250, 95250000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(56096250, 90170000), (57406250, 91480000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW45:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(57406250, 91480000), (57406250, 95850000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW45:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 7f01750e-8ffb-497f-bcd8-84ecfa8a8332 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(57406250, 95850000), (55856250, 97400000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 40dad8f0-baf8-46a2-b226-9898298faee6 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(55856250, 97400000), (55856250, 98250000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D45:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 56ef7353-6043-47eb-b13c-24aafee86ff7 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(44190000, 33020000), (45500000, 34330000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW1:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(45500000, 34330000), (45500000, 38700000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW1:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 0c0d2812-12dd-4185-9692-9bb9aa78951e track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(45500000, 38700000), (43950000, 40250000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of c925f2b4-6dd3-440f-be4d-a85d75a7f866 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(43950000, 40250000), (43950000, 41100000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D1:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of ace4bf76-6536-427f-a02e-4138a95f1940 track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:437: Using template replication method
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (166687500, 76200000)
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(172777500, 71120000), (174087500, 72430000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad SW37:2
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(174087500, 72430000), (174087500, 76800000)]
+DEBUG: board_modifier.py:370: Track collide with pad SW37:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 62c2c3e8-d016-4d66-aa8a-a6c9f947ede7 track
+DEBUG: board_modifier.py:401: Pad collision removed due to connection with track which leads to that pad
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(174087500, 76800000), (172537500, 78350000)]
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 5e1e04c2-06e9-4465-b1ae-87c040282ad9 track
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (B.Cu): [(172537500, 78350000), (172537500, 79200000)]
+DEBUG: board_modifier.py:360: Track collision ignored, track starts or ends in pad D37:2
+DEBUG: board_modifier.py:386: Track collision ignored, track starts or ends at the end of 3d7dd2be-8752-4e99-86fc-3eadfe5bcffd track
+INFO: board_modifier.py:469: Track added
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 3dd0894e-ec3b-4bc0-941c-262329c133b3
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing ddef9d1b-99e8-486c-a2a5-9f6ab7671786
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 91d3da92-1d8f-462c-a915-dadc2f1e0751
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 60ab4c95-5e0b-42e0-9bff-ff730910fd96
+INFO: key_placer.py:514: Removing dangling tracks

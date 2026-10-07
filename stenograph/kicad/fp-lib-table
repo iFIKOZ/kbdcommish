@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "stenograph")(type "KiCad")(uri "D:/1FIKOZ/keyboard-design/commish/stenograph")(options "")(descr ""))
+)
