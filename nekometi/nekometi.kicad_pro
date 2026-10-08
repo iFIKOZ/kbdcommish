@@ -652,7 +652,7 @@
         "uuid": "119756be-f753-404f-958a-041a2bcc9819"
       }
     ],
-    "used_designators": "D14-15,D30,D44,D58,D63-67,SW14-15,SW30,SW44,SW58,SW63-66,SW68-69",
+    "used_designators": "D14,SW14",
     "variants": []
   },
   "sheets": [

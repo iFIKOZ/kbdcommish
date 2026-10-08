@@ -499,6 +499,12 @@
 		(uuid "10f6b66a-1e9e-4f1f-b500-44d103e62fb7")
 	)
 	(junction
+		(at 288.29 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "113fc755-66db-4c27-a64e-ff5cd9a19aef")
+	)
+	(junction
 		(at 191.77 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -521,18 +527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a259701-ff47-4219-bb3d-483a7c76aa3b")
-	)
-	(junction
-		(at 252.73 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b705639-009e-4273-a226-74ea2454b576")
-	)
-	(junction
-		(at 267.97 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e0cfa68-fa29-40f3-8739-a8e9cf433135")
 	)
 	(junction
 		(at 161.29 63.5)
@@ -583,16 +577,16 @@
 		(uuid "25261d20-e83e-4b1f-b91b-c11bfc018a64")
 	)
 	(junction
+		(at 283.21 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25ad24b0-f045-44ad-8aa3-8d220f881443")
+	)
+	(junction
 		(at 273.05 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290f2a65-42b4-425c-b226-5ce4dca42ee9")
-	)
-	(junction
-		(at 227.33 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b115453-ac3d-41d4-82b4-1bc3c5df2bfd")
 	)
 	(junction
 		(at 115.57 90.17)
@@ -631,12 +625,6 @@
 		(uuid "38014be6-d163-4cb3-9e3d-b8963e8bd773")
 	)
 	(junction
-		(at 237.49 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a25f16f-f55a-4770-b288-eb823afc06bc")
-	)
-	(junction
 		(at 273.05 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -649,10 +637,10 @@
 		(uuid "43901a10-a118-480d-9920-4e45f0f65603")
 	)
 	(junction
-		(at 288.29 82.55)
+		(at 283.21 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "456c8554-533f-48d8-bdfe-4f19d9ca89ae")
+		(uuid "479a7ddf-4ed4-44d7-8aa3-643c4ac17676")
 	)
 	(junction
 		(at 135.89 55.88)
@@ -665,6 +653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "496c64ae-3870-4ede-90c0-48388712fb6e")
+	)
+	(junction
+		(at 267.97 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b262085-412f-489e-afca-f38ab59aa9bd")
 	)
 	(junction
 		(at 85.09 153.67)
@@ -725,6 +719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f6f2f97-3ed5-4e97-942e-d4dfa2d6d3b4")
+	)
+	(junction
+		(at 252.73 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605c471f-5a9b-4c66-bbbe-fe47dda5930d")
 	)
 	(junction
 		(at 207.01 90.17)
@@ -793,18 +793,6 @@
 		(uuid "754e0f3a-f7c6-4c3c-a055-730fa618f4e1")
 	)
 	(junction
-		(at 288.29 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "756dcc43-6649-412d-b0fb-f6e4c8d99e3e")
-	)
-	(junction
-		(at 273.05 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75c585bd-377a-49d0-94bb-b324b7b41393")
-	)
-	(junction
 		(at 74.93 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -815,12 +803,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "769b15cc-b303-4ff3-92a9-e1d79d93a239")
-	)
-	(junction
-		(at 283.21 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76dd2905-8c5b-4d5b-857e-e3960565f85c")
 	)
 	(junction
 		(at 90.17 113.03)
@@ -835,10 +817,22 @@
 		(uuid "7969c828-1e67-4159-8356-8467846ca26f")
 	)
 	(junction
+		(at 273.05 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a86b248-a018-43d0-a026-f807b7cd8d1d")
+	)
+	(junction
 		(at 196.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b2f1145-da26-47e9-99f1-a9623676b86a")
+	)
+	(junction
+		(at 288.29 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d3cb312-5582-4b57-9817-32f2d12a7675")
 	)
 	(junction
 		(at 146.05 63.5)
@@ -871,6 +865,12 @@
 		(uuid "83f44f7a-37cc-4f27-902f-129f3e390c3b")
 	)
 	(junction
+		(at 227.33 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "871e68e3-cadf-4817-967a-1d06ea3146d3")
+	)
+	(junction
 		(at 161.29 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -901,18 +901,6 @@
 		(uuid "90bc8764-a5b4-4d73-9e5f-7316c0ca3965")
 	)
 	(junction
-		(at 273.05 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "927fe289-e6fb-4aae-9339-072c7619f02a")
-	)
-	(junction
-		(at 288.29 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "945ad2cc-6fd4-48af-a57d-36dd5c06214f")
-	)
-	(junction
 		(at 181.61 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -923,6 +911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7b9dc8-5c5e-4222-9850-339458a95f6c")
+	)
+	(junction
+		(at 237.49 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d794061-7eea-4fe6-93a9-1775f9c87435")
 	)
 	(junction
 		(at 135.89 82.55)
@@ -941,12 +935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4b86b21-af83-4a26-ac0f-9bf861b64058")
-	)
-	(junction
-		(at 288.29 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5571eb4-b1e5-46f3-9850-fb370654f02a")
 	)
 	(junction
 		(at 257.81 82.55)
@@ -997,6 +985,12 @@
 		(uuid "b291fa9d-d681-40c3-bd84-ddd493d809ad")
 	)
 	(junction
+		(at 273.05 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3e98273-2c9e-4839-910a-32985f937e82")
+	)
+	(junction
 		(at 151.13 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1031,6 +1025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c938706e-f202-4cea-b87b-9fe2080a8b0c")
+	)
+	(junction
+		(at 288.29 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8257ba-0bcd-4a14-b923-31c832244503")
 	)
 	(junction
 		(at 85.09 90.17)
@@ -1117,12 +1117,6 @@
 		(uuid "f141e789-4487-40d7-b9ce-6ffd3ae4041c")
 	)
 	(junction
-		(at 283.21 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f279498a-375f-413a-9467-f3594044fa11")
-	)
-	(junction
 		(at 74.93 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1153,6 +1147,12 @@
 		(uuid "fac283c2-c373-44a5-888a-019a907be829")
 	)
 	(junction
+		(at 288.29 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcc6abec-13da-4b75-95d4-c6f949baeb39")
+	)
+	(junction
 		(at 176.53 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1180,16 +1180,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 176.53) (xy 237.49 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063856ab-85a1-4685-903f-cbd85aa4f163")
-	)
-	(wire
-		(pts
 			(xy 105.41 55.88) (xy 105.41 82.55)
 		)
 		(stroke
@@ -1207,16 +1197,6 @@
 			(type default)
 		)
 		(uuid "06b4cabd-5925-4f6d-a82c-232a3c3c17bc")
-	)
-	(wire
-		(pts
-			(xy 283.21 45.72) (xy 283.21 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c84248-1adb-493b-981f-7d825bb781c0")
 	)
 	(wire
 		(pts
@@ -1290,6 +1270,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 176.53) (xy 237.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1452a79f-dc83-422d-ac0a-fd971d2e8a05")
+	)
+	(wire
+		(pts
 			(xy 252.73 153.67) (xy 267.97 153.67)
 		)
 		(stroke
@@ -1297,6 +1287,16 @@
 			(type default)
 		)
 		(uuid "1513de87-2fac-41a9-9a22-46906743c043")
+	)
+	(wire
+		(pts
+			(xy 283.21 50.8) (xy 283.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1937f5a4-c4be-47ef-93cb-6c5173ff079c")
 	)
 	(wire
 		(pts
@@ -1327,16 +1327,6 @@
 			(type default)
 		)
 		(uuid "1cc8aafa-50f4-47ec-8109-444630eeedcc")
-	)
-	(wire
-		(pts
-			(xy 237.49 176.53) (xy 252.73 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d253294-10f1-495c-8110-4170749d3e67")
 	)
 	(wire
 		(pts
@@ -1380,26 +1370,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 43.18) (xy 273.05 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2492311a-045e-4bb6-a3a2-b219b40918d9")
-	)
-	(wire
-		(pts
-			(xy 283.21 176.53) (xy 298.45 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2559bd54-fd23-4f0f-b9f9-2a215f20e163")
-	)
-	(wire
-		(pts
 			(xy 90.17 55.88) (xy 90.17 82.55)
 		)
 		(stroke
@@ -1407,16 +1377,6 @@
 			(type default)
 		)
 		(uuid "26b13ca7-02fb-4e79-8fa8-92a736d3a7ca")
-	)
-	(wire
-		(pts
-			(xy 273.05 55.88) (xy 273.05 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26fc5522-50cf-47a6-be7e-cb4277767b92")
 	)
 	(wire
 		(pts
@@ -1460,6 +1420,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 113.03) (xy 288.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35807465-c28b-4a0c-99f7-59fc26c4499f")
+	)
+	(wire
+		(pts
 			(xy 222.25 90.17) (xy 237.49 90.17)
 		)
 		(stroke
@@ -1500,6 +1470,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 176.53) (xy 267.97 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3def528a-a33f-462a-9884-1e28c819cf4e")
+	)
+	(wire
+		(pts
 			(xy 161.29 63.5) (xy 176.53 63.5)
 		)
 		(stroke
@@ -1517,16 +1497,6 @@
 			(type default)
 		)
 		(uuid "3fd5e4b6-5454-41fb-8292-ae27a9b53975")
-	)
-	(wire
-		(pts
-			(xy 288.29 55.88) (xy 288.29 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456a2f6f-4608-43da-8cd1-1305817b6c0f")
 	)
 	(wire
 		(pts
@@ -1630,6 +1600,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 46.99) (xy 273.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53fcf2b7-500e-48ef-a6d8-cd252c8b0619")
+	)
+	(wire
+		(pts
 			(xy 161.29 153.67) (xy 176.53 153.67)
 		)
 		(stroke
@@ -1680,6 +1660,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 50.8) (xy 273.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2cfae7-c986-4f5b-b2ef-a1ad134d2f32")
+	)
+	(wire
+		(pts
 			(xy 207.01 90.17) (xy 222.25 90.17)
 		)
 		(stroke
@@ -1720,26 +1710,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 45.72) (xy 273.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613d3836-ff44-40e5-9337-a60930a8a2d2")
-	)
-	(wire
-		(pts
-			(xy 288.29 43.18) (xy 288.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6556fac3-f277-437f-80f9-14b16b5b6656")
-	)
-	(wire
-		(pts
 			(xy 283.21 63.5) (xy 298.45 63.5)
 		)
 		(stroke
@@ -1747,6 +1717,16 @@
 			(type default)
 		)
 		(uuid "68982421-7ef5-4da5-b94d-32520b1ddb8e")
+	)
+	(wire
+		(pts
+			(xy 267.97 176.53) (xy 283.21 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7042b94c-eda3-49c2-87dd-df086d102a99")
 	)
 	(wire
 		(pts
@@ -1830,6 +1810,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 176.53) (xy 252.73 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8314ac2e-c5b8-4273-8bd0-a3c8d09cbc04")
+	)
+	(wire
+		(pts
 			(xy 115.57 90.17) (xy 130.81 90.17)
 		)
 		(stroke
@@ -1850,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 38.1) (xy 273.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6400ed-22e9-4be3-923d-5e14382c0e48")
+	)
+	(wire
+		(pts
 			(xy 135.89 82.55) (xy 135.89 113.03)
 		)
 		(stroke
@@ -1857,16 +1857,6 @@
 			(type default)
 		)
 		(uuid "9020c001-e790-477a-83ea-e379f9935a57")
-	)
-	(wire
-		(pts
-			(xy 298.45 116.84) (xy 298.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90742b71-5504-420b-b1f6-b62043b0273a")
 	)
 	(wire
 		(pts
@@ -1887,6 +1877,16 @@
 			(type default)
 		)
 		(uuid "9385b8a7-2548-44d8-95f1-a2632ef99fc3")
+	)
+	(wire
+		(pts
+			(xy 283.21 46.99) (xy 283.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94931c47-f528-49fa-bf75-f558c0950bd8")
 	)
 	(wire
 		(pts
@@ -1920,6 +1920,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 146.05) (xy 288.29 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9840e7b4-580a-45e2-87e0-48d3fd18a59b")
+	)
+	(wire
+		(pts
 			(xy 252.73 90.17) (xy 267.97 90.17)
 		)
 		(stroke
@@ -1927,6 +1937,16 @@
 			(type default)
 		)
 		(uuid "9c1be9e8-6b5d-498c-b0ea-438aab1e3047")
+	)
+	(wire
+		(pts
+			(xy 227.33 146.05) (xy 227.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1fac2d-f17b-49c2-abfb-4b52df6a1d25")
 	)
 	(wire
 		(pts
@@ -2040,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 176.53) (xy 298.45 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11dd6f7-3099-4862-ac19-01b145a5a386")
+	)
+	(wire
+		(pts
 			(xy 85.09 153.67) (xy 115.57 153.67)
 		)
 		(stroke
@@ -2050,6 +2080,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 82.55) (xy 288.29 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18986b7-ad25-4d08-9bf1-9b9c7ec1e960")
+	)
+	(wire
+		(pts
 			(xy 242.57 113.03) (xy 242.57 146.05)
 		)
 		(stroke
@@ -2057,16 +2097,6 @@
 			(type default)
 		)
 		(uuid "b25be725-9261-469e-ad59-e26aa50a16be")
-	)
-	(wire
-		(pts
-			(xy 288.29 82.55) (xy 288.29 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f7686a-9b98-4b6f-ab81-447b64842bbe")
 	)
 	(wire
 		(pts
@@ -2110,26 +2140,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 176.53) (xy 267.97 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc37955a-8490-4ecc-ad8c-f46438ad4966")
-	)
-	(wire
-		(pts
-			(xy 288.29 109.22) (xy 288.29 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd090242-9437-4fae-958e-9524c23b3a75")
-	)
-	(wire
-		(pts
 			(xy 146.05 63.5) (xy 161.29 63.5)
 		)
 		(stroke
@@ -2157,26 +2167,6 @@
 			(type default)
 		)
 		(uuid "c09aa36e-e9d2-4e06-8bfd-9171938be49f")
-	)
-	(wire
-		(pts
-			(xy 227.33 146.05) (xy 227.33 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c146c173-bd36-4124-a8fe-a5bdf97d64ff")
-	)
-	(wire
-		(pts
-			(xy 288.29 139.7) (xy 288.29 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c170ac33-14ca-4b7e-9b06-7cb60551b118")
 	)
 	(wire
 		(pts
@@ -2300,13 +2290,13 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 176.53) (xy 283.21 176.53)
+			(xy 288.29 55.88) (xy 288.29 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4e10038-a3bf-476b-aa62-069110858432")
+		(uuid "d2791698-be84-4464-aac4-5d543c6a722f")
 	)
 	(wire
 		(pts
@@ -2357,16 +2347,6 @@
 			(type default)
 		)
 		(uuid "daf64f75-de0d-4c48-9796-9b80029ffcc2")
-	)
-	(wire
-		(pts
-			(xy 298.45 147.32) (xy 298.45 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe118fe-8778-4426-ad69-11103665da74")
 	)
 	(wire
 		(pts
@@ -2477,6 +2457,16 @@
 			(type default)
 		)
 		(uuid "ec2f5e37-cf59-4c61-bab0-c274f2739146")
+	)
+	(wire
+		(pts
+			(xy 288.29 38.1) (xy 288.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdac4c2-f25a-4de3-b58a-f372a7c47547")
 	)
 	(wire
 		(pts
@@ -2752,7 +2742,7 @@
 	)
 	(global_label "Col13"
 		(shape input)
-		(at 273.05 43.18 90)
+		(at 273.05 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2762,7 +2752,7 @@
 		)
 		(uuid "5c868471-5bf3-4ed5-bb02-ea89970fc67c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 34.6916 90)
+			(at 273.05 29.6116 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2958,7 @@
 	)
 	(global_label "Col14"
 		(shape input)
-		(at 288.29 43.18 90)
+		(at 288.29 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2978,7 +2968,7 @@
 		)
 		(uuid "cc5c89d9-c337-4550-ae14-c21d5d5ab476")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.29 34.6916 90)
+			(at 288.29 29.6116 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,8 +3029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 252.73 172.72 90)
+		(lib_id "keebio:MX_LED")
+		(at 293.37 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3048,34 +3038,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "006f29e6-0767-4ede-8984-9de7bf2a8a5a")
-		(property "Reference" "D64"
-			(at 255.27 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 255.27 173.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 257.175 172.72 0)
-			(hide yes)
+		(uuid "00bcbf3f-8d91-431c-9fd9-3b27c366061b")
+		(property "Reference" "SW69"
+			(at 293.37 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3084,8 +3049,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 252.73 172.72 0)
+		(property "Value" "R Bkscp"
+			(at 293.37 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 293.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,8 +3070,8 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 252.73 172.72 0)
+		(property "Datasheet" ""
+			(at 293.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,8 +3081,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 252.73 172.72 0)
+		(property "Description" ""
+			(at 293.37 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3117,27 +3092,22 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 252.73 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d3e")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c06")
 		)
 		(pin "1"
-			(uuid "160c4380-76e2-4ac4-aa1b-07ce9db1487c")
+			(uuid "b30626a2-7b43-40f4-bbcf-971bb5c986a8")
 		)
 		(pin "2"
-			(uuid "96a3e392-8dd3-41a6-b0eb-8c3d5d25187d")
+			(uuid "f3504e78-6789-4f91-aa41-52a7e8ca41ec")
 		)
 		(instances
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D64")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -3675,91 +3645,6 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
-		(at 293.37 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d4b99b8-0d74-4bc2-9ac5-8ad4e5bfc816")
-		(property "Reference" "SW30"
-			(at 293.37 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "End"
-			(at 293.37 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 293.37 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d48")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c10")
-		)
-		(pin "1"
-			(uuid "edf9dc33-7c49-4edd-a773-65b7125bec53")
-		)
-		(pin "2"
-			(uuid "e6b2235f-dc04-4ac3-b9bc-7ecd81a59c98")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keebio:MX_LED")
 		(at 110.49 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -3838,6 +3723,111 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 298.45 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "103a134b-1865-4114-a8b1-dcae01d64b3b")
+		(property "Reference" "D44"
+			(at 300.99 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 300.99 151.1299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 302.895 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 298.45 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 298.45 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04616d56-4c45-4db7-86af-7d7c8b54839b")
+		)
+		(pin "2"
+			(uuid "7fe6e0c3-be85-4686-be59-990bbd5cd3b4")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -4029,91 +4019,6 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 293.37 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "130ac562-cde2-4f25-b262-0158ef4f11a0")
-		(property "Reference" "SW69"
-			(at 293.37 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R Bkscp"
-			(at 293.37 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 293.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d3b")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c03")
-		)
-		(pin "1"
-			(uuid "8da39b69-8c88-4d87-aba3-a2d6e9fe3505")
-		)
-		(pin "2"
-			(uuid "159c5335-4dd6-4f4a-8ff2-7d988a107784")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -4416,111 +4321,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 298.45 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1812c9f0-1254-4da9-bd0e-66a301d9264c")
-		(property "Reference" "D67"
-			(at 300.99 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 300.99 60.9599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 302.895 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 298.45 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 298.45 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 298.45 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "413176b6-5334-4d9c-9140-cd507fd67eb3")
-		)
-		(pin "2"
-			(uuid "4cabaa14-1ea3-4e47-9561-d2e179e0cd57")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
 		(at 191.77 86.36 90)
 		(unit 1)
 		(body_style 1)
@@ -4711,6 +4511,91 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
+		(at 293.37 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "197fb030-99c0-4e94-a92a-f4499bea13b4")
+		(property "Reference" "SW30"
+			(at 293.37 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "End"
+			(at 293.37 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 293.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d48")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c10")
+		)
+		(pin "1"
+			(uuid "273f5963-3a0b-43b9-8f8d-145e74a42ea6")
+		)
+		(pin "2"
+			(uuid "1c26a052-5bec-464c-adf5-387027681fb8")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
 		(at 217.17 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -4874,91 +4759,6 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 232.41 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b8ca8ee-de3e-4338-a773-9da9ebfa0f19")
-		(property "Reference" "SW63"
-			(at 232.41 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R Ctrl"
-			(at 232.41 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 232.41 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d38")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c00")
-		)
-		(pin "1"
-			(uuid "34c4ae2d-29e4-4b2b-824a-696c02d1d759")
-		)
-		(pin "2"
-			(uuid "362f7ad2-3049-42a6-a48d-36b8492fef65")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -5490,6 +5290,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 267.97 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205e54eb-332e-4461-8036-bf26aff41d4c")
+		(property "Reference" "D65"
+			(at 270.51 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 270.51 173.9899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 272.415 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 267.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 267.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 267.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 267.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf80319d-f6f0-4225-9d6b-01e6b2921718")
+		)
+		(pin "2"
+			(uuid "5d6c0fdd-8b06-4ac2-bfa2-2d74ad72c1ba")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keebio:MX_LED")
 		(at 278.13 146.05 0)
 		(unit 1)
@@ -5785,6 +5690,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 237.49 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28d5992e-62f3-4734-adab-7d05b0548353")
+		(property "Reference" "D63"
+			(at 240.03 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 240.03 173.9899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 241.935 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 237.49 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 237.49 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d72ea5f4-80ff-4859-a492-26ad419ae25d")
+		)
+		(pin "2"
+			(uuid "0979dec2-b96b-4573-896c-a666460532e9")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keebio:MX_LED")
 		(at 125.73 146.05 0)
 		(unit 1)
@@ -5969,6 +5979,111 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 283.21 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "304edd89-7331-40d6-a65a-54e5a9515f27")
+		(property "Reference" "D66"
+			(at 285.75 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 285.75 173.9899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 287.655 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 283.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 283.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 283.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 283.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ed35c13-6e15-456b-a0cc-67728f449f07")
+		)
+		(pin "2"
+			(uuid "02d63c6b-3246-4679-82e8-5bba9f37a8af")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -6356,7 +6471,7 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
-		(at 247.65 168.91 0)
+		(at 262.89 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6364,9 +6479,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3ce59ce3-126d-4f24-a81b-ccd2a44829fe")
-		(property "Reference" "SW64"
-			(at 247.65 160.02 0)
+		(uuid "3b72bedb-8518-42de-b0c4-11309623c948")
+		(property "Reference" "SW65"
+			(at 262.89 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6375,8 +6490,8 @@
 				)
 			)
 		)
-		(property "Value" "Left"
-			(at 247.65 162.56 0)
+		(property "Value" "Down"
+			(at 262.89 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6386,7 +6501,7 @@
 			)
 		)
 		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 247.65 168.91 0)
+			(at 262.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6397,7 +6512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 168.91 0)
+			(at 262.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 168.91 0)
+			(at 262.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,21 +6534,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d2d")
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d43")
 		)
 		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84bf5")
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c0b")
 		)
 		(pin "1"
-			(uuid "2d5748a4-15fc-4cb5-b15b-eb22a1fb4be9")
+			(uuid "718aee1e-bc61-4bb4-8e2b-378edfe0147d")
 		)
 		(pin "2"
-			(uuid "0c787560-b36b-4987-ad1b-628e26699a82")
+			(uuid "8e1316be-1a64-4be9-8dd3-2b574ae2b7af")
 		)
 		(instances
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW64")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -6689,111 +6804,6 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 298.45 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "410775d9-f313-49a9-8a95-5a1c5f4aa74c")
-		(property "Reference" "D58"
-			(at 300.99 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 300.99 173.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 302.895 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 298.45 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 298.45 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 298.45 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4bd87c20-8d3c-4af7-b8fc-ce5cf4651545")
-		)
-		(pin "2"
-			(uuid "0654a95e-dfc4-4c18-8cad-40ad2b2d7f4b")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -8112,196 +8122,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 298.45 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5903604f-08a4-4feb-807d-3af84e7e3046")
-		(property "Reference" "D44"
-			(at 300.99 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 300.99 144.7799 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 302.895 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 298.45 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 298.45 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 298.45 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0c1730b-bbac-4cc5-9888-3e83695877d8")
-		)
-		(pin "2"
-			(uuid "1d22df3c-86a4-4828-ae68-5b716ec65f2c")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 278.13 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ad10fa6-9cd8-4597-b2fd-28c3c09ffea2")
-		(property "Reference" "SW68"
-			(at 278.13 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L Bkscp"
-			(at 278.13 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 278.13 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d3b")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c03")
-		)
-		(pin "1"
-			(uuid "d4990b5a-883e-48da-98e5-afadf278f93c")
-		)
-		(pin "2"
-			(uuid "1ca89a5a-3701-4588-a80f-1d63477c4892")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
 		(at 146.05 116.84 90)
 		(unit 1)
 		(body_style 1)
@@ -8682,6 +8502,91 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
+		(at 278.13 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68f62f85-466a-41c0-8b94-847259b8de8f")
+		(property "Reference" "SW68"
+			(at 278.13 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L Bkscp"
+			(at 278.13 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 278.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d3b")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c03")
+		)
+		(pin "1"
+			(uuid "03c44792-5368-4a33-8138-0d52f09b222d")
+		)
+		(pin "2"
+			(uuid "16e0ba9d-9e60-4787-8826-64d32f605478")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
 		(at 262.89 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -8760,6 +8665,111 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 298.45 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ededa1a-1b0b-4e95-91a2-8bdc1b99328a")
+		(property "Reference" "D67"
+			(at 300.99 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 300.99 60.9599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 302.895 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 298.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 298.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e993e0bd-4f95-4e07-a1bd-846b50ef95fc")
+		)
+		(pin "2"
+			(uuid "396c7d01-1800-473b-8520-a32146beb88c")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -9211,176 +9221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 278.13 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7fb17ce0-6177-4e2c-8ad6-09f468b72201")
-		(property "Reference" "SW66"
-			(at 278.13 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Right"
-			(at 278.13 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 278.13 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d40")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c08")
-		)
-		(pin "1"
-			(uuid "9264a4e4-0cd6-4230-b1b3-ecd30ea3c4ef")
-		)
-		(pin "2"
-			(uuid "54c318e0-b34e-4296-a62c-c9b78dda635a")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 293.37 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80188c05-a050-43bc-861c-445922f6e01a")
-		(property "Reference" "SW15"
-			(at 293.37 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Home"
-			(at 293.37 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 293.37 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d3e")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c06")
-		)
-		(pin "1"
-			(uuid "551ef616-9ddd-4f3c-b0ed-22dfeca6e51a")
-		)
-		(pin "2"
-			(uuid "677eba9f-5e08-4611-a281-d86a012eb57b")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 191.77 149.86 90)
 		(unit 1)
@@ -9676,8 +9516,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 267.97 172.72 90)
+		(lib_id "keebio:MX_LED")
+		(at 278.13 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9685,34 +9525,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83a6b3ce-4306-49e7-90d5-99483efdd3dd")
-		(property "Reference" "D65"
-			(at 270.51 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 270.51 173.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 272.415 172.72 0)
-			(hide yes)
+		(uuid "87109b59-1052-4dcc-95f7-f32fe7ed2247")
+		(property "Reference" "SW66"
+			(at 278.13 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9721,8 +9536,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 267.97 172.72 0)
+		(property "Value" "Right"
+			(at 278.13 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 278.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9732,8 +9557,8 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 267.97 172.72 0)
+		(property "Datasheet" ""
+			(at 278.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9743,8 +9568,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 267.97 172.72 0)
+		(property "Description" ""
+			(at 278.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,132 +9579,22 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d40")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c08")
 		)
 		(pin "1"
-			(uuid "844ae8cb-927d-4ed4-9ecb-869081d717e4")
+			(uuid "f6cec9b4-b354-47f5-a0e8-a23259e7ce36")
 		)
 		(pin "2"
-			(uuid "a5f4414a-b402-413f-8892-5e17dd9c61f3")
+			(uuid "82f63733-b347-4952-bbe5-0959ca453415")
 		)
 		(instances
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 283.21 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8845b318-5f3a-4ca3-b7fe-8c779d2fca08")
-		(property "Reference" "D66"
-			(at 285.75 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 285.75 173.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 287.655 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 283.21 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 283.21 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 283.21 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 283.21 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5ef3250-ab2f-424e-b89c-92fba73bf96e")
-		)
-		(pin "2"
-			(uuid "f0a5fa92-c035-41e5-bc3e-36103d8ebad1")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D66")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -10097,7 +9812,7 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
-		(at 278.13 55.88 180)
+		(at 293.37 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10105,9 +9820,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8d5cfe23-7f21-4a40-9fcf-e3e347219b77")
-		(property "Reference" "SW14"
-			(at 278.13 63.5 0)
+		(uuid "8d4b1e3c-7081-4953-b039-ab17b79f343e")
+		(property "Reference" "SW44"
+			(at 293.37 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10116,8 +9831,8 @@
 				)
 			)
 		)
-		(property "Value" "Bkscp"
-			(at 278.13 60.96 0)
+		(property "Value" "Pg Up"
+			(at 293.37 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10127,7 +9842,7 @@
 			)
 		)
 		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 278.13 55.88 0)
+			(at 293.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +9853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 55.88 0)
+			(at 293.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +9864,92 @@
 			)
 		)
 		(property "Description" ""
+			(at 293.37 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d1f")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84be7")
+		)
+		(pin "1"
+			(uuid "265d6584-68a9-43a4-8cb4-74653f3b8114")
+		)
+		(pin "2"
+			(uuid "78fc32ad-09d8-4857-89e7-b04e0f7edccc")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
+		(at 278.13 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d5cfe23-7f21-4a40-9fcf-e3e347219b77")
+		(property "Reference" "SW14"
+			(at 278.13 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bkscp"
 			(at 278.13 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 278.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,6 +10270,91 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
+		(at 293.37 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ab54cf1-1da8-4fd1-b234-61baf4393cdc")
+		(property "Reference" "SW15"
+			(at 293.37 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Home"
+			(at 293.37 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 293.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d3e")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c06")
+		)
+		(pin "1"
+			(uuid "283aa02c-355d-43dd-9987-e0bfba0ca099")
+		)
+		(pin "2"
+			(uuid "9a982d5a-27d3-422a-acd4-043f0ed945c7")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -10962,6 +10847,91 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
+		(at 293.37 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f226e8d-4d45-47e0-8d51-011e7d4c0b5c")
+		(property "Reference" "SW58"
+			(at 293.37 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pg Down"
+			(at 293.37 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 293.37 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d0c")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84bd4")
+		)
+		(pin "1"
+			(uuid "37fd4aa7-1e59-4ea1-8952-0e2ed3d40497")
+		)
+		(pin "2"
+			(uuid "54e5e107-7015-48d7-bf17-63777d1832e1")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
 		(at 80.01 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -11131,6 +11101,91 @@
 		)
 	)
 	(symbol
+		(lib_id "keebio:MX_LED")
+		(at 232.41 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a388fdff-abae-4028-9df5-947161a53c5b")
+		(property "Reference" "SW63"
+			(at 232.41 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R Ctrl"
+			(at 232.41 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 232.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d38")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c00")
+		)
+		(pin "1"
+			(uuid "205e3eb4-e74d-4e5a-a689-e465542eabbe")
+		)
+		(pin "2"
+			(uuid "af3ce527-7fae-41f6-af41-6c696f6c5713")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 115.57 116.84 90)
 		(unit 1)
@@ -11236,8 +11291,8 @@
 		)
 	)
 	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 293.37 168.91 0)
+		(lib_id "Diode:1N4148W")
+		(at 252.73 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11245,29 +11300,33 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ab67440c-9ff3-4298-baa9-0f0bedbf429f")
-		(property "Reference" "SW58"
-			(at 293.37 160.02 0)
+		(fields_autoplaced yes)
+		(uuid "ae54c6de-a25f-4aad-854f-b8a7f8679218")
+		(property "Reference" "D64"
+			(at 255.27 171.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Pg Down"
-			(at 293.37 162.56 0)
+		(property "Value" "1N4148W"
+			(at 255.27 173.9899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 293.37 168.91 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 257.175 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11277,8 +11336,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 293.37 168.91 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 252.73 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11288,8 +11347,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 293.37 168.91 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 252.73 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11299,22 +11358,38 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d0c")
+		(property "Sim.Device" "D"
+			(at 252.73 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84bd4")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 252.73 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "1d2ae49b-6162-4497-9591-b8321bdfe42b")
+			(uuid "0096aabe-47e1-4b41-b117-2f3cce287cfe")
 		)
 		(pin "2"
-			(uuid "21d55798-460a-4e74-a2b5-a3113afe0baa")
+			(uuid "c3cbc5d1-6680-4b04-8672-96e4e304d2d4")
 		)
 		(instances
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW58")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -12717,91 +12792,6 @@
 		)
 	)
 	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 262.89 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c025a98b-dab7-4859-98a2-b469b6e83213")
-		(property "Reference" "SW65"
-			(at 262.89 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Down"
-			(at 262.89 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 262.89 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d43")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84c0b")
-		)
-		(pin "1"
-			(uuid "1d2c4d3d-df5b-4ad5-b8d0-dff2ad9bedfa")
-		)
-		(pin "2"
-			(uuid "ba30a28c-9ac5-4d98-8d72-9ed5b92c2c7f")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 207.01 59.69 90)
 		(unit 1)
@@ -13261,111 +13251,6 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 298.45 113.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c81f3181-884d-4cc0-9164-91369745b543")
-		(property "Reference" "D30"
-			(at 300.99 111.7599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 300.99 114.2999 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 302.895 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 298.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 298.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 298.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d1d6092-258f-443e-8468-8be0aa10db7b")
-		)
-		(pin "2"
-			(uuid "55f7c635-04c4-41a5-ad63-587252a69177")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -13878,6 +13763,111 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
+		(at 298.45 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d338fedd-d7ff-4be1-988b-429a96963b23")
+		(property "Reference" "D30"
+			(at 300.99 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 300.99 118.1099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 302.895 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 298.45 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 298.45 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3ab9117-9dec-40d3-a877-3b6bc5a9e1ea")
+		)
+		(pin "2"
+			(uuid "7c065aaa-d52d-4982-9932-99a076cce060")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
 		(at 237.49 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -14166,196 +14156,6 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 237.49 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc190066-1947-438e-9d1a-abadf5831506")
-		(property "Reference" "D63"
-			(at 240.03 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 240.03 173.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 241.935 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 237.49 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 237.49 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 237.49 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 237.49 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86125861-11a7-42b6-ad54-0e0027bbf879")
-		)
-		(pin "2"
-			(uuid "3fa862dd-60d8-4fb3-918c-7f84d91ae7e9")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keebio:MX_LED")
-		(at 293.37 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "deaa4317-f96c-4398-a95d-424f2447860d")
-		(property "Reference" "SW44"
-			(at 293.37 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pg Up"
-			(at 293.37 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 293.37 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d1f")
-		)
-		(pin "4"
-			(uuid "339cf13c-ad93-467d-9adb-d960f0e84be7")
-		)
-		(pin "1"
-			(uuid "1835aeb6-581f-4514-84a2-5ab4f037910b")
-		)
-		(pin "2"
-			(uuid "b38ced7f-f3d0-4bc8-8a16-c3eead4d166d")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -14756,6 +14556,111 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 298.45 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4df3fb5-2802-41c6-85fa-bcdb881ea9d9")
+		(property "Reference" "D15"
+			(at 300.99 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 300.99 87.6299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 302.895 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8240a39-15a5-42eb-a3cb-da7d644975b3")
+		)
+		(pin "2"
+			(uuid "d1ff7177-9be1-4b26-b4b1-f4f84df5e3cf")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -15268,111 +15173,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 298.45 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecd5da30-848e-4742-aea0-d8275a70a743")
-		(property "Reference" "D15"
-			(at 300.99 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 300.99 87.6299 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 302.895 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 298.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 298.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 298.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c9d67a6-52ac-46d5-b773-46e800b311dc")
-		)
-		(pin "2"
-			(uuid "c495865a-8cf7-4249-bbcf-a0f7b0075c57")
-		)
-		(instances
-			(project "nekometi"
-				(path "/119756be-f753-404f-958a-041a2bcc9819"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
 		(at 267.97 149.86 90)
 		(unit 1)
 		(body_style 1)
@@ -15688,6 +15488,91 @@
 	)
 	(symbol
 		(lib_id "keebio:MX_LED")
+		(at 247.65 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7a6bc5a-3b0a-420d-a22b-26a1f1d5be5b")
+		(property "Reference" "SW64"
+			(at 247.65 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Left"
+			(at 247.65 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 247.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87cc59dc-951f-4a15-bb43-95694fe76d2d")
+		)
+		(pin "4"
+			(uuid "339cf13c-ad93-467d-9adb-d960f0e84bf5")
+		)
+		(pin "1"
+			(uuid "b526847e-cac8-42b5-a841-b171b06a9374")
+		)
+		(pin "2"
+			(uuid "496a5cff-04db-4a7a-bfc7-74887695880d")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "SW64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keebio:MX_LED")
 		(at 156.21 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -15766,6 +15651,111 @@
 			(project "nekometi"
 				(path "/119756be-f753-404f-958a-041a2bcc9819"
 					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 298.45 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc09a3e0-3ecb-40c5-a86c-7660b1c731f0")
+		(property "Reference" "D58"
+			(at 300.99 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 300.99 173.9899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 302.895 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 298.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 298.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55494746-0440-4fa7-8b54-70efd6d287ee")
+		)
+		(pin "2"
+			(uuid "1a2803d7-ae1a-47a6-8a12-7f1cc6d01c21")
+		)
+		(instances
+			(project "nekometi"
+				(path "/119756be-f753-404f-958a-041a2bcc9819"
+					(reference "D58")
 					(unit 1)
 				)
 			)
